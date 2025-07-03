@@ -1,0 +1,65 @@
+.navbar {
+    width: 100%;
+    background-color: #ED3729;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 25px;
+}
+
+nav .navbar-location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+nav .navbar-location span {
+    font-size: 14px;
+}
+
+nav .navbar-links {
+    display: flex;
+    gap: 33px;
+}
+
+nav .navbar-links li {
+    list-style: none;
+}
+
+nav .navbar-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+nav .navbar-selection {
+    display: flex;
+    gap: 53px;
+    color: #ffffff;
+}
+
+nav .navbar-selection .phone {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+nav .navbar-selection select {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+nav .navbar-selection select option {
+    color: #000000;
+}

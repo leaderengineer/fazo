@@ -1,0 +1,28 @@
+main {
+    padding: 50px 25px 40px 25px;
+}
+
+.product-category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.product-category .category-title {
+    font-size: 24px;
+    color: #202020;
+    font-weight: 650;
+}
+
+.category-link {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    color: #909090;
+    cursor: pointer;
+}
+
+.popular-categories .category-title {
+    margin-top: 60px;
+}

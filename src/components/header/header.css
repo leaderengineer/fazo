@@ -1,0 +1,132 @@
+header {
+    padding: 25px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top .logo img {
+    width: 119px;
+    height: 36px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.header-top .search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header-top .search select {
+    width: 145px;
+    height: 45px;
+    outline: none;
+    border: 1px solid #ED3729;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 20px;
+}
+
+.header-top .search input {
+    width: 400px;
+    height: 45px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #909090;
+    border: 1px solid #ED3729;
+    outline: none;
+    border-left: none;
+}
+
+.header-top .search .microphone {
+    position: absolute;
+    right: 160px;
+    cursor: pointer;
+    color: #BDBDBD;
+    transition: .5s;
+}
+
+.header-top .search .microphone:active {
+    color: #ED3729;
+}
+
+.header-top .search .search-group {
+    width: 127px;
+    height: 45px;
+    background-color: #ED3729;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    user-select: none;
+}
+
+.header-top .magazine-category {
+    display: flex;
+    gap: 33px;
+}
+
+.header-top .magazine-category .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.36px;
+    cursor: pointer;
+}
+
+.header-pages-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.header-pages-links button {
+    width: 180px;
+    height: 50px;
+    background-color: #ED3729;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.header-pages-links button span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-pages-links .pages-links {
+    display: flex;
+    gap: 48px;
+}
+
+.header-pages-links .pages-links li {
+    list-style: none;
+}
+
+.header-pages-links .pages-links li a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.header-pages-links .pages-links li .first {
+    color: #ED3729;
+}
