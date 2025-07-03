@@ -3,7 +3,7 @@
     {
       "id": 1,
       "discountPercent": 5,
-      "image": "./src/assets/database/technospark.png",
+      "image": "../database/technospark.png",
       "discountPrice": 1373000,
       "realPrice": 1304000,
       "name": "Телефон TECNO Spark 6 Go KE5j 3/64GB Ice Jadeite"
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "discountPercent": 77,
-      "image": "./src/assets/database/camera.png",
+      "image": "../database/camera.png",
       "discountPrice": 1529000,
       "realPrice": 350000,
       "name": "Умные часы Haylou RT-LS05S"
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "discountPercent": 4,
-      "image": "./src/assets/database/router.png",
+      "image": "../database/router.png",
       "discountPrice": 1529000,
       "realPrice": 1350000,
       "name": "TP-LINK TL-WR940N 450M (черный)"
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "discountPercent": 77,
-      "image": "./src/assets/database/hearingpods.png",
+      "image": "../database/hearingpods.png",
       "discountPrice": 1529000,
       "realPrice": 350000,
       "name": "Умные часы Haylou RT-LS05S"
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "discountPercent": 77,
-      "image": "./src/assets/database/keyboard.png",
+      "image": "../database/keyboard.png",
       "discountPrice": 1529000,
       "realPrice": 350000,
       "name": "Клавиатура 2E Gaming KG330"
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "discountPercent": 77,
-      "image": "./src/assets/database/headphones.png",
+      "image": "../database/headphones.png",
       "discountPrice": 1529000,
       "realPrice": 350000,
       "name": "Наушники Panasonic RP-HJE125E-R"
@@ -51,7 +51,7 @@
     {
       "id": 7,
       "discountPercent": 77,
-      "image": "./src/assets/database/technopop.png",
+      "image": "../database/technopop.png",
       "discountPrice": 1529000,
       "realPrice": 350000,
       "name": "Телефон TECNO POP 4 BC2c 2/32GB Ice Lake Green"
@@ -59,7 +59,7 @@
     {
       "id": 8,
       "discountPercent": 77,
-      "image": "./src/assets/database/watch.png",
+      "image": "../database/watch.png",
       "discountPrice": 1529000,
       "realPrice": 350000,
       "name": "Motorola Smartwatch"
@@ -67,7 +67,7 @@
     {
       "id": 9,
       "discountPercent": 77,
-      "image": "./src/assets/database/cameratenveo.png",
+      "image": "../database/cameratenveo.png",
       "discountPrice": 1529000,
       "realPrice": 350000,
       "name": "PTZ камера Tenveo TEVO-NV4K Ultra HD"
@@ -75,7 +75,7 @@
     {
       "id": 10,
       "discountPercent": 77,
-      "image": "./src/assets/database/technopop.png",
+      "image": "../database/technopop.png",
       "discountPrice": 1529000,
       "realPrice": 350000,
       "name": "Телефон TECNO POP 4 BC2c 2/32GB Ice Lake Green"
@@ -83,7 +83,7 @@
     {
       "id": 11,
       "discountPercent": 67,
-      "image": "./src/assets/database/cameramoon.png",
+      "image": "../database/cameramoon.png",
       "discountPrice": 1481230,
       "realPrice": 500000,
       "name": "PTZ камера Tenve TEVO-NV4K Ultra HD"
@@ -91,7 +91,7 @@
     {
       "id": 12,
       "discountPercent": 23,
-      "image": "./src/assets/database/imac.png",
+      "image": "../database/imac.png",
       "discountPrice": 17000000,
       "realPrice": 15000000,
       "name": "I Mac i9 11 protsesor 8Gb SSD 256Gb"

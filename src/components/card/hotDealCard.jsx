@@ -1,5 +1,4 @@
 import "./hotDealCard.css";
-import camera from "../../assets/database/camera.png";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
