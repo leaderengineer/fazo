@@ -3,7 +3,7 @@ import "./header.css";
 import Logo from "../../assets/logo.png";
 import Slider from "../slider/slider";
 
-function Header() {
+function Header({ search, setSearch }) {
   return (
     <div className="header">
       <Navbar />
@@ -17,7 +17,12 @@ function Header() {
               <select>
                 <option value="Все категории">Все категории</option>
               </select>
-              <input type="text" placeholder="Телефоны и бытовая" />
+              <input
+                type="text"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder="Телефоны и бытовая"
+              />
               <i className="microphone fa-solid fa-microphone"></i>
               <div className="search-group">
                 <i className="fa-solid fa-magnifying-glass"></i>

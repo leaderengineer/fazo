@@ -1,12 +1,8 @@
 import "./hotDealCard.css";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import axios from "axios";
 
-function HotDealCard() {
-  const [products, setProducts] = useState([]);
-
-  console.log(products);
-
+function HotDealCard({ filtered, search, setProducts }) {
   // Malumot olish
   useEffect(() => {
     axios
@@ -15,11 +11,13 @@ function HotDealCard() {
       .catch((err) => console.error("Xatolik", err));
   }, []);
 
+  // Filter jarayoni
+
   return (
     <div>
       <div className="container">
         <div className="cards">
-          {products.map((product) => {
+          {filtered.map((product) => {
             return (
               <div className="card" key={product.id}>
                 <span className="discountParcent">
@@ -64,6 +62,9 @@ function HotDealCard() {
               </div>
             );
           })}
+          {search && filtered.length === 0 && (
+            <h1 className="notfound">Hech narsa topilmadi 🤨</h1>
+          )}
         </div>
       </div>
     </div>

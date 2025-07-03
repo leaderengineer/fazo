@@ -4,6 +4,10 @@
     gap: 30px;
 }
 
+.cards .notfound {
+    margin: 0 auto;
+}
+
 .cards .card {
     width: 315px;
     height: 407px;
